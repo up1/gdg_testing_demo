@@ -1,5 +1,8 @@
 package workshop.gdg2015;
 
+import android.app.Activity;
+import android.content.Context;
+
 import org.junit.Before;
 import org.junit.Test;
 
@@ -7,10 +10,13 @@ import static org.junit.Assert.*;
 
 public class CalculateTest {
 
+
     @Before
     public void setUp() throws Exception {
 
     }
+
+
 
     Calculate calculate = new Calculate();
 
